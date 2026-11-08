@@ -19,10 +19,6 @@ import TaskDetails from "../pages/manager/TaskDetails";
 export const routes = createBrowserRouter([
     {
         path: "/",
-        element: <Navigate to="/manager/dashboard" replace />,
-    },
-    {
-        path: "/",
         element: <Navigate to="/login" replace />,
     },
     {
